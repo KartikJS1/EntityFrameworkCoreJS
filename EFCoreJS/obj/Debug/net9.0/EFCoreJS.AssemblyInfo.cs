@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EFCoreJS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac091579385493d09f7e5484fab45d3455bdc12b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+086b473997eabcc5f92ea8d20c020f43b7856aa5")]
 [assembly: System.Reflection.AssemblyProductAttribute("EFCoreJS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EFCoreJS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
