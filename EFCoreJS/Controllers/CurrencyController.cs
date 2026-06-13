@@ -37,5 +37,12 @@ namespace EFCoreJS.Controllers
             var result = await appDbContext.Currencies.Where(x => x.Title == name).FirstOrDefaultAsync();
             return Ok(result);
         }
+
+        [HttpPost("all")]
+        public async Task<IActionResult> GetCurrenciesByListAsync([FromBody] List<int> ids)
+        {
+            var result = await appDbContext.Currencies.Where(x => ids.Contains(x.Id)).ToListAsync();
+            return Ok(result);
+        }
     }
 }
